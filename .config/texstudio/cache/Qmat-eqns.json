@@ -1,0 +1,88 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/raviroy/01-MyStuffs/01-Academics/01-PhD/04-Seminars/QMAT-2023/Tex/references.bib#references"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/raviroy/01-MyStuffs/01-Academics/01-PhD/04-Seminars/QMAT-2023/Tex/Qmat-eqns.tex",
+    "labels": [
+        "eqn:H_TB",
+        "eqn:HBDG-matrix",
+        "eqn:HBdG",
+        "eqn:self-consistency"
+    ],
+    "modified": "Tue Jul 18 16:56:56 2023",
+    "packages": [
+        "#dcolumn",
+        "#changes",
+        "#booktabs",
+        "#makecell",
+        "#dcolumn",
+        "#braket",
+        "#color",
+        "#amssymb",
+        "#hyperref",
+        "#nameref",
+        "#latexsym",
+        "#float",
+        "#psfrag",
+        "#mathrsfs",
+        "#longtable",
+        "#dcolumn",
+        "#bm",
+        "usenames,dvipsnames#xcolor",
+        "#amsmath",
+        "version=4#mhchem",
+        "#epstopdf",
+        "#epsfig",
+        "#bm",
+        "#siunitx",
+        "caption=false#subfig",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#class-revtex4-2",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#latex-document",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#tex",
+        "#rotating",
+        "#soul",
+        "#enumerate",
+        "#bm",
+        "#natbib",
+        "#bm",
+        "#nicefrac",
+        "#eucal",
+        "#amsfonts",
+        "#hyperref",
+        "#nameref",
+        "#hyperref",
+        "#nameref",
+        "#graphicx",
+        "#graphicx",
+        "#import"
+    ],
+    "refs": [
+        "eqn:self-consistency",
+        "eqn:HBDG-matrix",
+        "eqn:H_TB"
+    ],
+    "toc": [
+        "2#\\textsc{Introduction}#167",
+        "2#\\textsc{Models and Theoretical Background}#182",
+        "3#\\textsc{Bogoliubov-de Gennes mean-field theory}#183",
+        "3#Correlated disorder model#246",
+        "3#Numerical parameters#249",
+        "2#\\textsc{Numerical Results}#252",
+        "3#Spatial profile of disorder and the order parameter#253"
+    ],
+    "usercommands": [
+        "\\bn",
+        "\\be",
+        "\\en",
+        "\\blue",
+        "\\bse",
+        "\\ee",
+        "\\questaal",
+        "\\red",
+        "\\note"
+    ]
+}

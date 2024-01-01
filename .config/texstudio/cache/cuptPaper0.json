@@ -1,0 +1,63 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/run/media/raviroy/T7/01-MyStuffs/01-Academics/01-PhD/05-MyPapersWork/cuptPaper/paperDraft/references.bib#references"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/run/media/raviroy/T7/01-MyStuffs/01-Academics/01-PhD/05-MyPapersWork/cuptPaper/paperDraft/cuptPaper0.1.tex",
+    "labels": [
+        "sec: atomic-str",
+        "sec: comp-details",
+        "sec: Computational_details",
+        "fig:band-str-zoom",
+        "fig:atomic-str",
+        "sec: band-str",
+        "fig:projbands",
+        "tab:table1"
+    ],
+    "modified": "Sat Apr 29 20:43:28 2023",
+    "packages": [
+        "#siunitx",
+        "#amsfonts",
+        "#amsmath",
+        "#graphicx",
+        "#bm",
+        "#color",
+        "#bbm",
+        "apl,twocolumn,showpacs,superscriptaddress,letterpaper#class-revtex4-2",
+        "apl,twocolumn,showpacs,superscriptaddress,letterpaper#latex-document",
+        "apl,twocolumn,showpacs,superscriptaddress,letterpaper#tex",
+        "#dcolumn",
+        "#tabularx",
+        "#appendix",
+        "#mathrsfs",
+        "#hyperref",
+        "#nameref"
+    ],
+    "refs": [
+        "tab:table1",
+        "fig:atomic-str",
+        "fig:band-str-zoom",
+        "fig:band-str-zoom",
+        "fig:projbands"
+    ],
+    "toc": [
+        "2#\\textsc{Introduction}#63",
+        "2#\\textsc{Atomic Structure and Computational Details}#88",
+        "3#\\textsc{Atomic structure}#89",
+        "3#\\textsc{Computational Details}#98",
+        "2#\\textsc{Results and Discussions}#118",
+        "3#\\textsc{Electronic Properties}#119",
+        "2#\\textsc{Conclusions}#160",
+        "2#\\textsc{Acknowledgements}#163"
+    ],
+    "usercommands": [
+        "\\ee",
+        "\\be",
+        "\\inas",
+        "\\insb",
+        "\\cupt"
+    ]
+}

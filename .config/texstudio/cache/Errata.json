@@ -1,0 +1,41 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/raviroy/01-MyStuffs/01-Academics/02-NPTEL/Magnetism-and-SC-2023/texFiles/Errata-QPs/Errata.tex",
+    "labels": [
+    ],
+    "modified": "Fri Aug 25 14:37:21 2023",
+    "packages": [
+        "#xcolor",
+        "#colortbl",
+        "#amsthm",
+        "#amsmath",
+        "toc,page#appendix",
+        "#amsfonts",
+        "#mathtools",
+        "#braket",
+        "#enumitem",
+        "#xpatch",
+        "top=1in,bottom =1 in ,left=0.6 in,right=1 in#geometry",
+        "#colordvi",
+        "#mathrsfs",
+        "#geometry",
+        "#nicefrac",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#graphics",
+        "#caption"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        "\\note",
+        "\\Comb"
+    ]
+}

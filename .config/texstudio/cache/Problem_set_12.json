@@ -1,0 +1,39 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/run/media/raviroy/T7/01-MyStuffs/01-Academics/02-NPTEL/Electronic-Theory-of-Solids/NPTEL-2024/Problem_set_12/Problem_set_12.tex",
+    "labels": [
+    ],
+    "modified": "Thu Dec 28 13:04:56 2023",
+    "packages": [
+        "top=1in,bottom =1 in ,left=0.6 in,right=1 in#geometry",
+        "#stmaryrd",
+        "#mathtools",
+        "#xpatch",
+        "#colordvi",
+        "#amsthm",
+        "#amsmath",
+        "toc,page#appendix",
+        "#xcolor",
+        "#graphics",
+        "#geometry",
+        "#enumitem",
+        "#mhchem",
+        "#caption",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#colortbl",
+        "#mathrsfs",
+        "#amsfonts"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+    ]
+}

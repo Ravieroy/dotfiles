@@ -1,0 +1,36 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/raviroy/Errata/errata.tex",
+    "labels": [
+    ],
+    "modified": "",
+    "packages": [
+        "#caption",
+        "12pt#latex-document",
+        "12pt#tex",
+        "#amsfonts",
+        "#graphics",
+        "#colordvi",
+        "#mathtools",
+        "#geometry",
+        "#colortbl",
+        "top=1in,bottom =1 in ,left=0.6 in,right=1 in#geometry",
+        "#xpatch",
+        "#braket",
+        "#enumitem",
+        "#xcolor",
+        "#amsthm",
+        "#amsmath"
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+    ]
+}

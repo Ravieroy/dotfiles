@@ -1,0 +1,88 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/run/media/raviroy/T7/01-MyStuffs/01-Academics/01-PhD/05-MyPapersWork/KagomeBdG/draft-v0.1/references.bib#references"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/run/media/raviroy/T7/01-MyStuffs/01-Academics/01-PhD/05-MyPapersWork/KagomeBdG/draft-v0.1/kagome-BdG.tex",
+    "labels": [
+        "eqn:HBdG",
+        "eqn:H_TB",
+        "eqn:self-consistency",
+        "eqn:HBDG-matrix"
+    ],
+    "modified": "Tue Jul 18 16:56:56 2023",
+    "packages": [
+        "#import",
+        "#hyperref",
+        "#nameref",
+        "#amsmath",
+        "#mathrsfs",
+        "#makecell",
+        "#enumerate",
+        "#soul",
+        "#bm",
+        "#bm",
+        "#siunitx",
+        "#graphicx",
+        "#color",
+        "#eucal",
+        "#float",
+        "#bm",
+        "version=4#mhchem",
+        "usenames,dvipsnames#xcolor",
+        "#dcolumn",
+        "#nicefrac",
+        "#natbib",
+        "#booktabs",
+        "#bm",
+        "#changes",
+        "#longtable",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#class-revtex4-2",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#latex-document",
+        "citeautoscript,floatfix,aps,prb,twocolumn,superscriptaddress#tex",
+        "#dcolumn",
+        "#hyperref",
+        "#nameref",
+        "#latexsym",
+        "#graphicx",
+        "#epstopdf",
+        "#psfrag",
+        "#rotating",
+        "#hyperref",
+        "#nameref",
+        "#amssymb",
+        "#dcolumn",
+        "#braket",
+        "caption=false#subfig",
+        "#epsfig",
+        "#amsfonts"
+    ],
+    "refs": [
+        "eqn:H_TB",
+        "eqn:self-consistency",
+        "eqn:HBDG-matrix"
+    ],
+    "toc": [
+        "2#\\textsc{Introduction}#167",
+        "2#\\textsc{Models and Theoretical Background}#182",
+        "3#\\textsc{Bogoliubov-de Gennes mean-field theory}#183",
+        "3#Correlated disorder model#246",
+        "3#Numerical parameters#249",
+        "2#\\textsc{Numerical Results}#252",
+        "3#Spatial profile of disorder and the order parameter#253"
+    ],
+    "usercommands": [
+        "\\en",
+        "\\bn",
+        "\\bse",
+        "\\note",
+        "\\red",
+        "\\be",
+        "\\questaal",
+        "\\blue",
+        "\\ee"
+    ]
+}

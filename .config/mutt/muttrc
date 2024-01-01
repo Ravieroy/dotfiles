@@ -1,0 +1,12 @@
+# vim: filetype=neomuttrc
+source /usr/local/share/mutt-wizard/mutt-wizard.muttrc
+source /home/raviroy/.config/mutt/accounts/ravieroy123@gmail.com.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/raviroy/.config/mutt/accounts/ravieroy123@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to ravieroy123@gmail.com"
+
+# source ~/.config/mutt/gruvbox/colors-gruvbox-shuber.muttrc
+# For neomutt also add this line:
+# source ~/.config/mutt/gruvbox/colors-gruvbox-shuber-extended.muttrc
+# source ~/.config/mutt/dracula.muttrc
+source ~/.config/mutt/neonwolf-256.muttrc
+# source ~/.config/mutt/solarized-dark-256.muttrc
+# source ~/.config/mutt/vombatidae.muttrc
