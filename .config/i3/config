@@ -461,3 +461,5 @@ exec_always --no-startup-id setxkbmap -option caps:swapescape
 # bindsym ctrl+space exec dunstctl close-all
 exec --no-startup-id "/home/raviroy/02-APPs/pcloud"
 
+exec --no-startup-id "autorandr --change" 
+

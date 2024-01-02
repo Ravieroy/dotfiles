@@ -22,10 +22,6 @@ map("", "<right>", "<nop>")
 -- Clear search highlighting with <leader><leader>
 map("n", "<leader><leader>", ":nohl<CR>")
 
--- Toggle auto-indenting for code paste
-map("n", "<F2>", ":set invpaste paste?<CR>")
-vim.opt.pastetoggle = "<F2>"
-
 -- Change split orientation
 map("n", "<leader>th", "<C-w>t<C-w>K") -- change vertical to horizontal
 map("n", "<leader>tv", "<C-w>t<C-w>H") -- change horizontal to vertical
