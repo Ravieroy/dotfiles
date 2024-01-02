@@ -249,12 +249,5 @@ macos_option_as_alt no
 # as #12af59 or "red".
 # macos_titlebar_color background
 
-allow_remote_control yes
-listen_on "$TMPDIR/kitty"
-
-map alt+h launch --type=tab less ~/vim_helper.txt
-
-# BEGIN_KITTY_THEME
-# Dracula
-include current-theme.conf
-# END_KITTY_THEME
+map alt+v launch --type=tab nvim ~/vimwiki/index.md
+map alt+k launch --type=tab nvim ~/Documents/kagomeBdg.wiki/index.md 
