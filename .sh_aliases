@@ -35,7 +35,7 @@ alias token="cat /home/raviroy/01-MyStuffs/02-Personal/02-GithubProjects/token"
 alias i3edit="nvim ~/.config/i3/config"
 alias monoff="xrandr --auto && xrandr --output HDMI-A-0 --off"
 alias monon="xrandr --auto && xrandr --output HDMI-A-0 --auto --right-of eDP"
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias cfg="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 alias hf='history -100 |fzf'
 # youtube-dl
 #alias yta-aac="youtube-dl --extract-audio --audio-format aac "
