@@ -453,6 +453,15 @@ bindsym $mod2+b exec --no-startup-id "nitrogen /home/raviroy/01-MyStuffs/04-Wall
 # bindsym $mod+b exec --no-startup-id "/home/raviroy/02-APPs/palemoon/palemoon"
 #xss-lock i3lock
 
+#----To set lock time add the following lines in /etc/X11/xorg.conf.d/30-dpms.conf
+# 20 stands for 20 mins
+# Section "ServerFlags"
+#     Option "StandbyTime" "20"
+#     Option "SuspendTime" "20"
+#     Option "OffTime" "20"
+#     Option "BlankTime" "20"
+# EndSection
+
 exec_always --no-startup-id xss-lock i3lock-fancy
 exec_always --no-startup-id setxkbmap -option caps:swapescape
 # exec_always --no-startup-id bash ~/.scripts/chk_memory.sh
