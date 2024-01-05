@@ -16,10 +16,10 @@ theme="ribbon_bottom"
 
 dir="$HOME/.config/rofi/launchers/ribbon"
 styles=($(ls -p --hide="colors.rasi" $dir/styles))
-color="${styles[$(( $RANDOM % 8 ))]}"
+# color="${styles[$(( $RANDOM % 8 ))]}"
 
 # comment this line to disable random colors
-sed -i -e "s/@import .*/@import \"$color\"/g" $dir/styles/colors.rasi
+# sed -i -e "s/@import .*/@import \"$color\"/g" $dir/styles/colors.rasi
 
 # comment these lines to disable random style
 #themes=($(ls -p --hide="launcher.sh" --hide="styles" $dir))
