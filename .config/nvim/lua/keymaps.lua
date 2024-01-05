@@ -1,6 +1,7 @@
 -----------------------------------------------------------
 -- Define keymaps of Neovim and installed plugins.
 -----------------------------------------------------------
+local mapkey = require("util.keymapper").mapvimkey
 
 local function map(mode, lhs, rhs, opts)
 	local options = { noremap = true, silent = true }
@@ -57,3 +58,14 @@ map("v", "<", "<gv")
 
 -- copy to clipboard
 map("v", "<leader>y", '"+y')
+
+-- Window Management
+mapkey("<leader>sv", "vsplit", "n") -- Split Vertically
+mapkey("<leader>sh", "split", "n") -- Split Horizontally
+mapkey("<C-Up>", "resize +2", "n")
+mapkey("<C-Down>", "resize -2", "n")
+mapkey("<C-Left>", "vertical resize +2", "n")
+mapkey("<C-Right>", "vertical resize -2", "n")
+
+-- Show Full File-Path
+mapkey("<leader>pa", "echo expand('%:p')", "n") -- Show Full File Path
