@@ -47,7 +47,7 @@ map("n", "<Tab>", ":bn<CR>")
 map("n", "<S-Tab>", ":bp<CR>")
 
 -- delete buffer
-map("n", "<C-d>", ":confirm bd<CR>")
+map("n", "<leader>d", ":confirm bd<CR>")
 
 -- visual shifting (does not exit Visual mode)
 vim.api.nvim_set_keymap("v", "J", ":m '>+1<CR>gv=gv", { noremap = true })
