@@ -13,6 +13,7 @@ end
 
 -- leader key
 vim.g.mapleader = " "
+vim.g.maplocalleader = ','
 
 -- Disable arrow keys
 map("", "<up>", "<nop>")
