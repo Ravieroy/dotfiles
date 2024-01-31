@@ -17,6 +17,7 @@ alias sus="i3-exit.sh suspend"
 alias wifi="wifi.sh"
 alias ..='cd ..'
 alias vim='nvim'
+alias v='nvim'
 alias calc='bc -l'
 alias n="nnn -e"
 ##alias cat="bat"
