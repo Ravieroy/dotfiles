@@ -70,3 +70,43 @@ mapkey("<C-Right>", "vertical resize -2", "n")
 
 -- Show Full File-Path
 mapkey("<leader>pa", "echo expand('%:p')", "n") -- Show Full File Path
+
+-- Replace the selection with yanked content
+map("v", "<leader>r", "\"_dP")
+
+-- use enter key to add a empty line
+map("n", "<Enter>", "i<Enter><Esc>k$")
+
+-- use leader + o/O to add new line and stay in normal mode
+map("n", "<leader>o", "o<Esc>0\"_D")
+map("n", "<leader>O", "o<Esc>0\"_D")
+
+-- paste in new line
+map("n", "<leader>p", ":pu<CR>")
+map("n", "<leader>P", ":pu!<CR>")
+
+-- Center buffer while navigating
+map("n", "<C-u>", "<C-u>zz")
+map("n", "<C-d>", "<C-d>zz")
+map("n", "{", "{zz")
+map("n", "}", "}zz")
+map("n", "N", "Nzz")
+map("n", "n", "nzz")
+map("n", "G", "Gzz")
+map("n", "gg", "ggzz")
+map("n", "<C-i>", "<C-i>zz")
+map("n", "<C-o>", "<C-o>zz")
+map("n", "%", "%zz")
+map("n", "*", "*zz")
+map("n", "#", "#zz")
+-- Press 'H', 'L' to jump to start/end of a line (first/last char)
+map("n", "L", "$")
+map("n", "H", "^")
+
+-- Resize split windows to be equal size
+map("n", "<leader>=", "<C-w>=")
+
+-- Press 'H', 'L' to jump to start/end of a line (first/last char)
+map("v", "L", "$<left>")
+map("v", "H", "^")
+
