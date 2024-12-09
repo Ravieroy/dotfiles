@@ -1,6 +1,14 @@
-/** Basic config file **/
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config 1080p */
 
+@import "~/.config/rofi/master-config.rasi" 
+
+/* ---- Configuration ---- */
 configuration {
-  show-icons:         true;
-  icon-theme:         "Papirus";
+	font: "Fira Code SemiBold 12";
 }
+
+element-text {
+    font:	"Fira Code SemiBold 14";
+}
+
