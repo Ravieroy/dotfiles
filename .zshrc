@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -112,10 +119,11 @@ export PATH="/usr/local/bin:$PATH"
 
 
 ##nnn
-export NNN_BMS='h:~;p:~/Pictures;d:~/Downloads;m:~/my-stuffs;s:~/.scripts;c:~/.config;b:bookmarks'
+export NNN_BMS='h:~;d:~/Downloads;m:~/01-MyStuffs;s:~/.scripts;c:~/.config;b:bookmarks'
 export NNN_COLORS='1234'
 export NNN_PLUG='x:!chmod +x $nnn'
 export NNN_FIFO='/tmp/nnn.fifo'
+
 #Jump shell
 eval "$(jump shell zsh )"
 
@@ -167,7 +175,7 @@ source /etc/profile.d/modules.sh
 module load mpi/openmpi-x86_64
 export RAY_memory_monitor_refresh_ms=0
 
-lolcat $HOME/.scripts/tux_large.ascii
+# lolcat $HOME/.scripts/tux_large.ascii
 
 # GoLang
 export GOROOT=/home/raviroy/.go
@@ -192,3 +200,9 @@ unset __conda_setup
 # <<< conda initialize <<<
  
 # eval "$(zellij setup --generate-auto-start zsh)"
+
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
