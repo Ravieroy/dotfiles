@@ -110,3 +110,5 @@ map("n", "<leader>=", "<C-w>=")
 map("v", "L", "$<left>")
 map("v", "H", "^")
 
+-- copy under the word
+map("n", "<C-c>", "ciw")
